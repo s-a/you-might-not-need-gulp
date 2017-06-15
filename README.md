@@ -1,4 +1,4 @@
-# Remove gulp.js from Repository
+# To Remove gulp.js from Repository
 
 1.  Remove `gulp*` from devDependencies and dependencies sections in package.json.
 2.  Remove `"prepublish": "gulp prepublish"` from script section in package.json.
@@ -10,7 +10,7 @@
 
 -   `npm install --save-dev should eslint coveralls nyc mocha`
 
-My current node module script stack. Pull requests with script replacing gulp.js are welcome :)
+My current node module script stack. Pull requests with scripts replacing gulp.js jobs are welcome or feel free to create an issue when you figured out how to run a gulp.js job from the shell.
 
 ```javascript
   "scripts": {
@@ -25,7 +25,7 @@ My current node module script stack. Pull requests with script replacing gulp.js
     "mocha": "node node_modules/mocha/bin/_mocha",
     "test": "npm run eslint && npm run coverage"
   },
-```
+``` 
 
 ## .travis.yml
 
